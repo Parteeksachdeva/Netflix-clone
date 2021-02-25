@@ -20,7 +20,7 @@ function Banner({fetchUrl}) {
         }
         fetchData();
     },[fetchUrl])
-    console.log(movies);
+    //console.log(movies);
     return (
         <header className="banner"
             style={
@@ -42,11 +42,10 @@ function Banner({fetchUrl}) {
                 <p>{movies.overview}</p>
             </div>
             <div className="banner__fadeBottom">
-
-
             </div>
         </header>
     )
 }
 
 export default Banner
+//AIzaSyDeKuzvpDIFwKUiZvBd4xDwC3VtYOFDHtk

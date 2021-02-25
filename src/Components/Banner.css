@@ -15,7 +15,7 @@
 }
 .banner__contents>p{
     font-size: large;
-    margin-top:20px;
+    margin-top:10px;
     text-overflow: ellipsis;
 }
 .banner__btns{
