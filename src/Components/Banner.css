@@ -11,7 +11,6 @@
     height:340px;
     justify-content: center;
     width:40vw;
-    text-overflow: ellipsis;
 }
 .banner__contents>p{
     font-size: large;
@@ -38,4 +37,18 @@
         rgba(37,37,37,0.61),
         #111
     );
+}
+@media (max-width: 550px){
+    .banner{
+        visibility: 0;
+    }
+    .banner__contents>h1{
+        display: none;
+    }
+    .banner__contents>p{
+        display:none;
+    }
+    .banner__contents>.banner__btns{
+        display: none;
+    }
 }

@@ -29,14 +29,21 @@
 }
 .row__image:hover {
   transform: scale(1.08);
+  cursor: pointer;
 }
 .row__largeImg {
   max-height: 250px;
 }
 .row__largeImg:hover {
   transform: scale(1.09);
+  cursor: pointer;
 }
 .row__frame {
   display: flex;
   justify-content: center;
+}
+@media (max-width: 500px){
+  .row__posters::-webkit-scrollbar {
+   display: none;
+  }
 }

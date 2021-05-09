@@ -36,7 +36,7 @@ const [id,setId] = useState("");
                         async function fetchYoutubeData(){
                             const request = await youtube.get(`/search?key=${API_YOUTUBE_KEY}&part=snippet&q=${movie?.name}Netflixtrailer`);
                             setId(request?.data?.items[0]?.id?.videoId);
-                            console.log("aaa");
+                            //console.log("aaa");
                             return request;
                         }
                         fetchYoutubeData();
